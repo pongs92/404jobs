@@ -16,7 +16,12 @@
     var EchoPN = "";
 </script>
 <script type="text/javascript" src="/scripts/EchoScriptV2.js"></script>
+<!-- 
+	<link rel="stylesheet" type="text/css" href="/css/main_v171214.css">
+ -->
+
 <link rel="stylesheet" type="text/css" href="https://i.jobkorea.kr/content/css/ver_2/main/main_v171214.css?201812041114">
+
 <link rel="stylesheet" type="text/css" href="https://i.jobkorea.kr/content/css/ver_2/gnb/gnb.css?201812041114">
 <link rel="stylesheet" type="text/css" href="https://i.jobkorea.kr/content/css/ver_2/event/banner.promotion.css?201812041114">
 
@@ -111,11 +116,17 @@
       //-->
     </script>
 
-<script type="text/javascript" src="//static.criteo.net/js/ld/ld.js"></script><script type="text/javascript" src="//cdn-aitg.widerplanet.com/js/wp_astg_4.0.js"></script></head>
+<script type="text/javascript" src="//static.criteo.net/js/ld/ld.js"></script>
+<script type="text/javascript" src="//cdn-aitg.widerplanet.com/js/wp_astg_4.0.js"></script>
+
+</head>
 <body class="byWd byNm" style=""><a name="top"></a>
     <p id="accessibility"><a href="#point">메뉴 건너뛰기</a></p>
+
 <script type="text/javascript" src="/scripts/Landing_Banner.js?ver=35"></script>
+
 <script type="text/javascript">
+
     (function ($) {
         //$("document").ready(function () {
         $(window).load(function () {
@@ -176,21 +187,11 @@
     }
 </script>
 
-
-
-<!--// GNB 개편 시작 -->
-
-
-
-
-
 <script src="/scripts/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1"></script>
 
 <script src="/scripts/backbone?v=v0-3Qm9SB2AUlk_aeK9GniBVmVTE9yxsGpDYtXZWlYU1"></script>
 
 <script src="/scripts/Gnb?v=9AXDosY8_SXffdloJQYHn_nLhysMx83CJ0woeZJwBck1"></script>
-
-
 
 <script type="text/javascript" src="/scripts/uit.carousel.js"></script>
 <script>
@@ -256,12 +257,6 @@
         $("div.header-sub.start-sub ul.submenu-starter li.active span.icnUpdate").remove();
     });
 </script>
-
-
-
-    
-
-
 <hr>
 
 <div id="point">
@@ -291,9 +286,9 @@
                             <legend class="blind">로그인 및 관련 정보</legend>
                             <div class="loginIptWrap clear">
                                 <div class="loginIpt">
-                                    <label type="text" for="lb_id" class="ph id blind">잡코리아 ID 또는 알바몬 ID</label>
-                                    <input type="text" name="M_ID" id="lb_id" class="iptTx" title="아이디 입력" maxlength="20" style="ime-mode:inactive;" value="fandori89">
-                                    <label for="lb_pw" class="ph pw blind">비밀번호</label>
+                                    <label type="text" for="lb_id" class="ph id">잡코리아 ID 또는 알바몬 ID</label>
+                                    <input type="text" name="M_ID" id="lb_id" class="iptTx" title="아이디 입력" maxlength="20" style="ime-mode:inactive;" value="">
+                                    <label for="lb_pw" class="ph pw">비밀번호</label>
                                     <input type="password" name="M_PWD" id="lb_pw" class="iptTx" title="비밀번호 입력">
                                 </div>
                                 <button type="button" onclick="go_login_send(); return false;" class="btnLogin"><span>로그인</span></button>
@@ -407,8 +402,6 @@
                     document.loginForm.submit();
                 }
         </script>
-        
-
 
 <script>
     (function ($) {        
@@ -464,10 +457,8 @@
     })(jQuery);
 </script>
     </div>
-    <!-- 로그인 전 // -->           
-            <div class="quickMenuWrap">
-    
-    
+    <!-- 로그인 전 // -->
+<div class="quickMenuWrap">
     <ul class="clear devQuickStater" style="display:block;">
         <li class="item_1"><a href="http://www.jobkorea.co.kr/starter/" class="mainBtnB mainBtnMajor devHref devClick" data-click-value="61"><span>1000대기업</span></a></li>
         <li class="item_2"><a href="http://www.jobkorea.co.kr/starter/calendar/" class="mainBtnB mainBtnCalendar devHref devClick" data-click-value="62"><span>공채달력<span class="mainIcn mainIcnUpdate" title="update"><span class="blind">update</span></span></span></a></li>
@@ -480,8 +471,96 @@
         <li class="item_9"><a href="http://www.jobkorea.co.kr/starter/jobfair/" class="mainBtnB mainBtnJobfair devHref devClick" data-click-value="69"><span>채용설명회</span></a></li>
     </ul>
 </div>
-
         </div>
+
+        <div class="pointMain">
+            <div class="grand_banner_wrap" style="width:810px;">
+            <h3 class="header">Top 100</h3>
+            <ul class="list list_banner_5xn list_plus" style="width:810px; float:left;">
+                        <li class="itemTopBg" style="width:270px;">
+                            <div class="company">
+                                <span class="name">
+                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27073301?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27073301,4);adobeDtmOptClick('JH', 'GrandPlus');return false;" target="_blank">
+                                    	<span class="logo">
+                                    		<img src="//img12.jobkorea.kr/Images/Logo/106/m/i/migung0365_106.gif?20181221110506" width="106" height="42" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/106/l/o/logo_none_106.gif';">
+                                    	</span>
+                                    	㈜미궁365
+                                    </a>
+                                </span>
+                                    <button type="button" class="btn devFavorClassmigung0365 btnReg_1" onclick="doFavor('migung0365');SpaceClick(27073301,4);;" title="관심기업 등록">
+                                    	관심기업 등록
+                                    </button>
+                            </div>
+                            <div class="description">
+                            	<a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27073301?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27073301,4);adobeDtmOptClick('JH', 'GrandPlus');return false;" target="_blank">
+                            		웹기획 온라인 마케팅/고객상담(CS) 채용
+                            	</a>
+                            </div>
+                            <div class="extra">
+                            <button type="button" class="btn btnSm_1" onclick="javascript:lay_Quick_Open2('31245294');SpaceClick(27073301,4);">
+                            	즉시지원
+                            </button>
+                           </div>
+                        </li>
+                        <li class="itemTopBg" style="width:270px;">
+                            <div class="company">
+                                <span class="name">
+                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/26804764?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(26804764,4);adobeDtmOptClick('JH', 'GrandPlus');return false;" target="_blank"><span class="logo"><img src="//img12.jobkorea.kr/Images/Logo/106/a/l/alpha0405_106.gif?20181221110506" width="106" height="42" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/106/l/o/logo_none_106.gif';"></span>주식회사 알파에이전시</a>
+                                </span>
+                                    <button type="button" class="btn devFavorClassalpha0405 btnReg_1" onclick="doFavor('alpha0405');SpaceClick(26804764,4);;" title="관심기업 등록">관심기업 등록</button>
+                            </div>
+                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/26804764?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(26804764,4);adobeDtmOptClick('JH', 'GrandPlus');return false;" target="_blank"><span class="ls_1">[일급/월급/초보가능] 광고모델,연기자,보조출연(청소년,성인) 大모집</span></a></div>
+                            <div class="extra">
+                            	<button type="button" class="btn btnSm_1" onclick="javascript:lay_Quick_Open2('31006009');SpaceClick(26804764,4);">
+                            		즉시지원
+                            	</button>
+                           </div>
+                        </li>
+                        <li class="itemTopBg" style="width:270px;">
+                            <div class="company">
+                                <span class="name">
+                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27162380?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27162380,4);adobeDtmOptClick('JH', 'GrandPlus');return false;" target="_blank"><span class="logo"><img src="//img12.jobkorea.kr/Images/Logo/106/k/b/kbsmedia07_106.gif?20181218094300" width="106" height="42" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/106/l/o/logo_none_106.gif';"></span>KBS미디어㈜</a>
+                                </span>
+                                    <button type="button" class="btn devFavorClasskbsmedia07 btnReg_1" onclick="doFavor('kbsmedia07');SpaceClick(27162380,4);;" title="관심기업 등록">관심기업 등록</button>
+                            </div>
+                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27162380?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27162380,4);adobeDtmOptClick('JH', 'GrandPlus');return false;" target="_blank">경력직 개발자 정규 채용<br>(KBS뉴스 관련)</a></div>
+                            <div class="extra"><button type="button" class="btn devScrap31324268 btnScrap_1" onclick="doScrap(31324268);SpaceClick(27162380,4);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday">D-10</div></div>
+                        </li>
+                        <li class="" style="width:270px;">
+                            <div class="company">
+                                <span class="name">
+                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27141390?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27141390,4);adobeDtmOptClick('JH', 'GrandPlus');return false;" target="_blank"><span class="logo"><img src="//img12.jobkorea.kr/Images/Logo/106/b/r/brandnewskin_106.gif?20181221110506" width="106" height="42" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/106/l/o/logo_none_106.gif';"></span>브랜뉴클리닉</a>
+                                </span>
+                                    <button type="button" class="btn devFavorClassbrandnewskin btnReg_1" onclick="doFavor('brandnewskin');SpaceClick(27141390,4);;" title="관심기업 등록">관심기업 등록</button>
+                            </div>
+                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27141390?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27141390,4);adobeDtmOptClick('JH', 'GrandPlus');return false;" target="_blank">[청담브랜뉴클리닉] 상담실장 채용</a></div>
+                            <div class="extra"><button type="button" class="btn btnSm_1" onclick="javascript:lay_Quick_Open2('31305867');SpaceClick(27141390,4);">즉시지원</button><button type="button" class="btn devScrap31305867 btnScrap_1" onclick="doScrap(31305867);SpaceClick(27141390,4);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday dday_end">오늘마감</div></div>
+                        </li>
+                        <li class="" style="width:270px;">
+                            <div class="company">
+                                <span class="name">
+                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27173561?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27173561,4);adobeDtmOptClick('JH', 'GrandPlus');return false;" target="_blank"><span class="logo"><img src="//img12.jobkorea.kr/Images/Logo/106/e/c/ecount2_106.gif?20181221110506" width="106" height="42" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/106/l/o/logo_none_106.gif';"></span>㈜이카운트</a>
+                                </span>
+                                    <button type="button" class="btn devFavorClassecount2 btnReg_1" onclick="doFavor('ecount2');SpaceClick(27173561,4);;" title="관심기업 등록">관심기업 등록</button>
+                            </div>
+                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27173561?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27173561,4);adobeDtmOptClick('JH', 'GrandPlus');return false;" target="_blank">ECOUNT 서비스부문 신입사원 채용</a></div>
+                            <div class="extra"><button type="button" class="btn btnSm_1" onclick="javascript:lay_Quick_Open2('31334332');SpaceClick(27173561,4);">즉시지원</button><button type="button" class="btn devScrap31334332 btnScrap_1" onclick="doScrap(31334332);SpaceClick(27173561,4);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday">D-6</div></div>
+                        </li>
+                        <li class="" style="width:270px;">
+                            <div class="company">
+                                <span class="name">
+                                    <a href="http://oras.jobkorea.co.kr/gwsinbo" onclick="bannerWin(this.href,'18','31304751','156810');SpaceClick(27140068,4);adobeDtmOptClick('JH', 'GrandPlus'); return false;" target="_blank"><span class="logo"><img src="//img12.jobkorea.kr/Images/Logo/106/g/w/gwsinbo_106.gif?20181221110506" width="106" height="42" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/106/l/o/logo_none_106.gif';"></span>강원신용보증재단</a>
+                                </span>
+                                    <button type="button" class="btn devFavorClassgwsinbo btnReg_1" onclick="doFavor('gwsinbo');SpaceClick(27140068,4);;" title="관심기업 등록">관심기업 등록</button>
+                            </div>
+                            <div class="description"><a href="http://oras.jobkorea.co.kr/gwsinbo" onclick="bannerWin(this.href,'18','31304751','156810');SpaceClick(27140068,4);adobeDtmOptClick('JH', 'GrandPlus'); return false;" target="_blank">신규직원 채용<br></a></div>
+                            <div class="extra"><button type="button" class="btn devScrap31304751 btnScrap_1" onclick="doScrap(31304751);SpaceClick(27140068,4);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday">D-7</div></div>
+                        </li>
+            </ul>
+        </div>
+            
+        </div>
+
         <script>
             (function () {
                 // carousel 배너
@@ -489,209 +568,57 @@
                 var banner_2 = new uit.carousel('#carousel_2', { random: false });
             })()
         </script>
-    
-
     </div>
-</div> 
-<h2 class="blind">상품 리스트 영역</h2> 
+</div>
+
         <div class="grand_banner_wrap">
-            <h3 class="header">TOP100</h3>            
-
-            <ul class="list list_banner_5xn list_grand">
-                        <li class="itemTopBg">
-                            <div class="company">
-                                <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27134806?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27134806,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/s/a/samwongj_86.gif?20181220145006" width="86" height="34" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>㈜삼원에스앤디</a>
-                                </span>
-                                    <button type="button" class="btn devFavorClasssamwongj btnReg_1" onclick="doFavor('samwongj');SpaceClick(27134806,5);;" title="관심기업 등록">관심기업 등록</button>
-                            </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27134806?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27134806,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank">각 분야 경력직 모집 <br>[공사팀/견적팀/디자인팀]</a></div>
-                            <div class="extra"><button type="button" class="btn btnSm_1" onclick="javascript:lay_Quick_Open2('31299990');SpaceClick(27134806,5);">즉시지원</button><button type="button" class="btn devScrap31299990 btnScrap_1" onclick="doScrap(31299990);SpaceClick(27134806,5);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday">D-1</div></div>
-                        </li>
-                        <li class="itemTopBg">
-                            <div class="company">
-                                <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27004529?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27004529,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/h/m/hmdvision_86.gif?20181220145006" width="86" height="34" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>㈜현대미포조선</a>
-                                </span>
-                                    <button type="button" class="btn devFavorClasshmdvision btnReg_1" onclick="doFavor('hmdvision');SpaceClick(27004529,5);;" title="관심기업 등록">관심기업 등록</button>
-                            </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27004529?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27004529,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank">제 86기 기술교육생 모집<br></a></div>
-                            <div class="extra"><button type="button" class="btn devScrap31184043 btnScrap_1" onclick="doScrap(31184043);SpaceClick(27004529,5);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday">D-14</div></div>
-                        </li>
-                        <li class="itemTopBg">
-                            <div class="company">
-                                <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27139780?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27139780,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/o/k/okypage_86.gif?20181220145006" width="86" height="34" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>㈜와이페이지</a>
-                                </span>
-                                    <button type="button" class="btn devFavorClassokypage btnReg_1" onclick="doFavor('okypage');SpaceClick(27139780,5);;" title="관심기업 등록">관심기업 등록</button>
-                            </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27139780?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27139780,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank">2018년 온라인광고 마케팅영업부문 공개채용</a></div>
-                            <div class="extra"><button type="button" class="btn btnSm_1" onclick="javascript:lay_Quick_Open2('31304515');SpaceClick(27139780,5);">즉시지원</button><button type="button" class="btn devScrap31304515 btnScrap_1" onclick="doScrap(31304515);SpaceClick(27139780,5);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday">D-3</div></div>
-                        </li>
-                        
-                        
-                        <li class="item_adagency ">
-                            <a href="http://www.jobkorea.co.kr/theme/kodit" onclick="PrivateLink(87898, this.href);PrivateClick(87898, 5); return false;" target="_blank">
-                                <img src="//file1.jobkorea.co.kr/banner/ad_kodit_215x147.png?20180622152900" alt="신용보증기금 전용관">
-                            </a>
-                        </li>
-                        <li class="">
-                            <div class="company">
-                                <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27164622?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27164622,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/c/v/cvsnet_86.gif?20181220145006" width="86" height="34" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>씨브이에스넷㈜</a>
-                                </span>
-                                    <button type="button" class="btn devFavorClasscvsnet btnReg_1" onclick="doFavor('cvsnet');SpaceClick(27164622,5);;" title="관심기업 등록">관심기업 등록</button>
-                            </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27164622?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27164622,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank">기획영업팀 경력사원 채용<br></a></div>
-                            <div class="extra"><button type="button" class="btn btnSm_1" onclick="javascript:lay_Quick_Open2('31326259');SpaceClick(27164622,5);">즉시지원</button><button type="button" class="btn devScrap31326259 btnScrap_1" onclick="doScrap(31326259);SpaceClick(27164622,5);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday">D-5</div></div>
-                        </li>
-                        <li class="item_adagency ">
-                            <a href="http://www.jobkorea.co.kr/theme/startup" onclick="PrivateLink(87954, this.href);PrivateClick(87954, 5); return false;" target="_blank">
-                                <img src="//file1.jobkorea.co.kr/banner/ad_seoul_215x147.png?20180508145100" alt="서울 혁신기업 채용관 스타트업 &amp; 강소기업">
-                            </a>
-                        </li>
-                        <li class="">
-                            <div class="company">
-                                <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27129451?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27129451,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/k/p/kpcard_86.gif?20181220135900" width="86" height="34" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>한국선불카드㈜</a>
-                                </span>
-                                    <button type="button" class="btn devFavorClasskpcard btnReg_1" onclick="doFavor('kpcard');SpaceClick(27129451,5);;" title="관심기업 등록">관심기업 등록</button>
-                            </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27129451?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27129451,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank">제휴 및 개발 신입 /경력사원 모집</a></div>
-                            <div class="extra"><button type="button" class="btn btnSm_1" onclick="javascript:lay_Quick_Open2('31295244');SpaceClick(27129451,5);">즉시지원</button><button type="button" class="btn devScrap31295244 btnScrap_1" onclick="doScrap(31295244);SpaceClick(27129451,5);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday">D-4</div></div>
-                        </li>
-                        <li class="">
-                            <div class="company">
-                                <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27120546?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27120546,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/d/b/dbcons_86.gif?20181220145006" width="86" height="34" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>대방건설</a>
-                                </span>
-                                    <button type="button" class="btn devFavorClassdbcons btnReg_1" onclick="doFavor('dbcons');SpaceClick(27120546,5);;" title="관심기업 등록">관심기업 등록</button>
-                            </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27120546?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27120546,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank">신입공채 10기 및 경력직원 채용<br></a></div>
-                            <div class="extra"><button type="button" class="btn devScrap31287252 btnScrap_1" onclick="doScrap(31287252);SpaceClick(27120546,5);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday">D-6</div></div>
-                        </li>
-                        <li class="">
-                            <div class="company">
-                                <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27185505?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27185505,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/l/g/lgmart_86.gif?20181220145006" width="86" height="34" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>㈜GS리테일</a>
-                                </span>
-                                    <button type="button" class="btn devFavorClasslgmart btnReg_1" onclick="doFavor('lgmart');SpaceClick(27185505,5);;" title="관심기업 등록">관심기업 등록</button>
-                            </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27185505?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27185505,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank">[신입] H&amp;B부문 인턴사원 채용 <br>(점포영업)</a></div>
-                            <div class="extra"><button type="button" class="btn devScrap31344935 btnScrap_1" onclick="doScrap(31344935);SpaceClick(27185505,5);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday">D-15</div></div>
-                        </li>
-                        <li class="">
-                            <div class="company">
-                                <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27147106?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27147106,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/n/i/nikestores_86.gif?20181220145006" width="86" height="34" alt="" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>(유)나이키코리아</a>
-                                </span>
-                                    <button type="button" class="btn devFavorClassnikestores btnReg_1" onclick="doFavor('nikestores');SpaceClick(27147106,5);;" title="관심기업 등록">관심기업 등록</button>
-                            </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27147106?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27147106,5);adobeDtmOptClick('JH', 'Grand');return false;" target="_blank">나이키코리아 직영점 정규직 채용</a></div>
-                            <div class="extra"><button type="button" class="btn btnSm_1" onclick="javascript:lay_Quick_Open2('31310976');SpaceClick(27147106,5);">즉시지원</button><button type="button" class="btn devScrap31310976 btnScrap_1" onclick="doScrap(31310976);SpaceClick(27147106,5);" title="채용정보 스크랩">채용정보 스크랩</button> <div class="dday">D-3</div></div>
-                        </li>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-
-
-            </ul>
-        </div>
-
-
-
-
-<hr>
-        <div class="grand_banner_wrap">
-            <h3 class="header">채용중인 기업</h3>
-            
-
+            <h3 class="header">현재 채용중인 기업</h3>
             <ul class="list list_banner_3xn">
                         <li class="itemTopBg">
                             <div class="company">
                                 <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/26927036?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(26927036,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/b/b/bbaa4203_86.gif?20181220145008" width="86" height="34" alt="㈜중앙" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>㈜중앙</a>
-                                </span>
-                                <button type="button" class="btn devFavorClassbbaa4203 btnReg_1" onclick="doFavor('bbaa4203');SpaceClick(26927036,6);;" title="관심기업 등록">관심기업 등록</button>
-                            </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/26927036?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(26927036,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank">비영리법인컨설팅전문 업계NO1. [신입/경력사원 모집] <div class="dday dday_always">상시채용</div></a></div>
-                            <div class="extra"><button type="button" class="btn devScrap31115110 btnScrap_1" onclick="doScrap(31115110);SpaceClick(26927036,6);" title="채용정보 스크랩"><span>채용정보 스크랩</span></button></div>
-                        </li>
-                        <li class="itemTopBg">
-                            <div class="company">
-                                <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27162918?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27162918,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/f/o/foresys1_86.gif?20181220145008" width="86" height="34" alt="㈜포이시스" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>㈜포이시스</a>
-                                </span>
-                                <button type="button" class="btn devFavorClassforesys1 btnReg_1" onclick="doFavor('foresys1');SpaceClick(27162918,6);;" title="관심기업 등록">관심기업 등록</button>
-                            </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27162918?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27162918,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="ls_2">㈜포이시스 본사 [JAVA , 웹디자인, Android/ios 개발자] 정규직 / 프리..</span> <div class="dday">~12/31</div></a></div>
-                            <div class="extra"><button type="button" class="btn devScrap31324743 btnScrap_1" onclick="doScrap(31324743);SpaceClick(27162918,6);" title="채용정보 스크랩"><span>채용정보 스크랩</span></button></div>
-                        </li>
-                        <li class="itemTopBg">
-                            <div class="company">
-                                <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27111194?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27111194,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/s/h/sh4000_86.gif?20181220145008" width="86" height="34" alt="수현㈜" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>수현㈜</a>
+                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27111194?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27111194,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/s/h/sh4000_86.gif?20181221110510" width="86" height="34" alt="수현㈜" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>수현㈜</a>
                                 </span>
                                 <button type="button" class="btn devFavorClasssh4000 btnReg_1" onclick="doFavor('sh4000');SpaceClick(27111194,6);;" title="관심기업 등록">관심기업 등록</button>
                             </div>
                             <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27111194?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27111194,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank">마케팅 / 매칭매니저 부문 담당자 채용 <div class="dday">~12/31</div></a></div>
                             <div class="extra"><button type="button" class="btn devScrap31278959 btnScrap_1" onclick="doScrap(31278959);SpaceClick(27111194,6);" title="채용정보 스크랩"><span>채용정보 스크랩</span></button></div>
                         </li>
-                        
-                        
-                        
-                        
-                        
-                        
+                        <li class="itemTopBg">
+                            <div class="company">
+                                <span class="name">
+                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27146171?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27146171,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/m/e/meritzcc_86.gif?20181221110510" width="86" height="34" alt="메리츠화재" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>메리츠화재</a>
+                                </span>
+                                <button type="button" class="btn devFavorClassmeritzcc btnReg_1" onclick="doFavor('meritzcc');SpaceClick(27146171,6);;" title="관심기업 등록">관심기업 등록</button>
+                            </div>
+                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27146171?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27146171,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank">[부천/부산] 대표번호 인바운드 상담직원 채용 <div class="dday">~12/28</div></a></div>
+                            <div class="extra"><button type="button" class="btn devScrap31310172 btnScrap_1" onclick="doScrap(31310172);SpaceClick(27146171,6);" title="채용정보 스크랩"><span>채용정보 스크랩</span></button></div>
+                        </li>
+                        <li class="itemTopBg">
+                            <div class="company">
+                                <span class="name">
+                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27074620?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27074620,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/j/o/joycredit_86.gif?20181221110510" width="86" height="34" alt="㈜조이크레디트대부금융" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>㈜조이크레디트대부금융</a>
+                                </span>
+                                <button type="button" class="btn devFavorClassjoycredit btnReg_1" onclick="doFavor('joycredit');SpaceClick(27074620,6);;" title="관심기업 등록">관심기업 등록</button>
+                            </div>
+                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27074620?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27074620,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank">(주)조이크레디트 각 부문별 신입 및 경력사원 모집 <div class="dday">~12/23</div></a></div>
+                            <div class="extra"><button type="button" class="btn devScrap31246462 btnScrap_1" onclick="doScrap(31246462);SpaceClick(27074620,6);" title="채용정보 스크랩"><span>채용정보 스크랩</span></button></div>
+                        </li>
                         
                         <li class="">
                             <div class="company">
                                 <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27132357?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27132357,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/v/i/visol119_86.gif?20181220145008" width="86" height="34" alt="㈜비솔" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>㈜비솔</a>
+                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/26832040?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(26832040,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/y/n/ynigroup_86.gif?20181221110510" width="86" height="34" alt="㈜와이앤아이" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>㈜와이앤아이</a>
+                                </span>
+                                <button type="button" class="btn devFavorClassynigroup btnReg_1" onclick="doFavor('ynigroup');SpaceClick(26832040,6);;" title="관심기업 등록">관심기업 등록</button>
+                            </div>
+                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/26832040?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(26832040,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="ls_1">와이앤아이그룹 부동산 영업(판매) 매니저 및 채용 신입/경력직 모집</span> <div class="dday">~01/12</div></a></div>
+                            <div class="extra"><button type="button" class="btn devScrap31030401 btnScrap_1" onclick="doScrap(31030401);SpaceClick(26832040,6);" title="채용정보 스크랩"><span>채용정보 스크랩</span></button></div>
+                        </li>
+                        <li class="">
+                            <div class="company">
+                                <span class="name">
+                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27132357?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27132357,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/v/i/visol119_86.gif?20181221110510" width="86" height="34" alt="㈜비솔" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>㈜비솔</a>
                                 </span>
                                 <button type="button" class="btn devFavorClassvisol119 btnReg_1" onclick="doFavor('visol119');SpaceClick(27132357,6);;" title="관심기업 등록">관심기업 등록</button>
                             </div>
@@ -701,192 +628,18 @@
                         <li class="">
                             <div class="company">
                                 <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27177789?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27177789,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/n/p/npic6689_86.gif?20181220145008" width="86" height="34" alt="엔피아이씨" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>엔피아이씨</a>
+                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27194976?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27194976,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/i/o/ioi1234_86.gif?20181221110510" width="86" height="34" alt="㈜트라이코코리아" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>㈜트라이코코리아</a>
                                 </span>
-                                <button type="button" class="btn devFavorClassnpic6689 btnReg_1" onclick="doFavor('npic6689');SpaceClick(27177789,6);;" title="관심기업 등록">관심기업 등록</button>
+                                <button type="button" class="btn devFavorClassioi1234 btnReg_1" onclick="doFavor('ioi1234');SpaceClick(27194976,6);;" title="관심기업 등록">관심기업 등록</button>
                             </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27177789?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27177789,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank">주식영업 TM 신입 및 경력 모집<br> <div class="dday">~12/27</div></a></div>
-                            <div class="extra"><button type="button" class="btn devScrap31338170 btnScrap_1" onclick="doScrap(31338170);SpaceClick(27177789,6);" title="채용정보 스크랩"><span>채용정보 스크랩</span></button></div>
+                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27194976?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27194976,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank">외국계기업 회계세무 서비스 실무스탭 및 Reviewer(과/차장급) 모집 <div class="dday">~01/15</div></a></div>
+                            <div class="extra"><button type="button" class="btn devScrap31353543 btnScrap_1" onclick="doScrap(31353543);SpaceClick(27194976,6);" title="채용정보 스크랩"><span>채용정보 스크랩</span></button></div>
                         </li>
-                        <li class="">
-                            <div class="company">
-                                <span class="name">
-                                    <a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27125689?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27125689,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank"><span class="logo"><img src="//img11.jobkorea.kr/Images/Logo/86/s/e/seelaw33_86.gif?20181220145008" width="86" height="34" alt="대한법률학원" onerror="this.src='//img.jobkorea.co.kr/Images/Logo/86/l/o/logo_none_86.gif';"></span>대한법률학원</a>
-                                </span>
-                                <button type="button" class="btn devFavorClassseelaw33 btnReg_1" onclick="doFavor('seelaw33');SpaceClick(27125689,6);;" title="관심기업 등록">관심기업 등록</button>
-                            </div>
-                            <div class="description"><a href="http://www.jobkorea.co.kr/Recruit/Booth_GI_Read/27125689?Oem_Code=C1" onclick="Job_DB_window(this.href,1000,500);SpaceClick(27125689,6);adobeDtmOptClick('JH', 'Gold');return false;" target="_blank">[취업 연수생] 법률사무직 취업희망자 모집 <div class="dday dday_always">상시채용</div></a></div>
-                            <div class="extra"><button type="button" class="btn devScrap31291885 btnScrap_1" onclick="doScrap(31291885);SpaceClick(27125689,6);" title="채용정보 스크랩"><span>채용정보 스크랩</span></button></div>
-                        </li>
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-
-
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
 
             </ul>
         </div>        
 
 <hr>
-        
-
-
 
 <!-- Qna 용 스와이프 js -->
 <script src="/scripts/ui.main.min.js?20181101"></script>
@@ -899,17 +652,66 @@
     });
 </script>
 
+<div id="footer">
+    <h2 class="skip">잡코리아 기타 정보</h2>
+
+    <div class="btmNtc">
+            <h3 class="blind">공지사항</h3>
+            <dl class="clear">
+                <dt><a href="http://www.jobkorea.co.kr/help/notice">공지사항</a></dt>
+                <dd class="dotum"><a href="http://www.jobkorea.co.kr/help/notice/view?no=14051">잡코리아 이용약관 및 개인정보처리방침 개정 안내 <em class="tahoma">18.12.20</em></a></dd>
+            </dl>
+        <span class="tplBtn btnAll"><a href="http://www.jobkorea.co.kr/Service_JK/Site_Map.asp">서비스 전체보기</a></span>
+    </div>
+
+    <div class="btmSvc">
+        <h3 class="blind">잡코리아 서비스 링크</h3>
+        <ul>
+            <li><a href="http://company.jobkorea.co.kr/" target="_blank">회사소개</a></li>
+            <li><a href="http://www.jobkorea.co.kr/Service_JK/GI/AD">광고문의</a></li>
+            <li><a href="http://company.jobkorea.co.kr/Network/default.asp#Partners" target="_blank">제휴문의</a></li>
+            <li><a href="http://company.jobkorea.co.kr/Recruit/default.asp#recruitAra" target="_blank">인재채용</a></li>
+            <li><a href="http://www.jobkorea.co.kr/Service_JK/Provision/Provision_GG.asp">이용약관</a></li>
+            <li><a href="http://www.jobkorea.co.kr/Service_JK/privacy.asp"><strong>개인정보처리방침</strong></a></li>
+            <li><a href="http://company.jobkorea.co.kr/Service/default.asp" target="_blank">운영사이트</a></li>
+            <li><a href="http://globalemployer.jobkorea.co.kr" target="_blank">Global Employer</a></li>
+            <li><a href="http://www.jobkorea.co.kr/help/faq/user" target="_blank">고객센터</a></li>
+        </ul>
+    </div>
+
+    <div class="btmHelp">
+        <h3 class="blind">고객센터</h3>
+        <dl class="first">
+            <dt>고객센터</dt>
+            <dd class="tahoma">1588-9350</dd>
+            <dd class="dotum">(평일 <span class="tahoma">09:00 ~ 19:00</span>  토요일 <span class="tahoma">09:00 ~ 15:00</span>)</dd>
+        </dl>
+        <dl class="tahoma">
+            <dt>FAX</dt>
+            <dd>02-565-9351</dd>
+        </dl>
+        <dl class="tahoma">
+            <dt>Email</dt>
+            <dd><a href="mailto:helpdesk@jobkorea.co.kr">helpdesk@jobkorea.co.kr</a></dd>
+        </dl>
+        
+    </div>
+    <div class="btmCompany">
+        <div class="item itemFirst">서울시 서초구 서초대로 301 동익성봉빌딩 16~18층 잡코리아</div>
+        <div class="item itemSecond">대표 : 윤병준</div>
+        <div class="item itemThird">사업자등록번호 : <span>110-81-34859</span></div>
+        <div class="item itemFourth">통신판매업 신고번호 : 2016-서울서초-0287호</div>
+        <div class="item itemFifth">직업정보제공사업 신고번호 : 서울청 제2016-11호</div>
+    </div>
     
-
-
-
-
+    <p class="copyright tahoma">Copyright ⓒ <strong><a href="http://company.jobkorea.co.kr/" target="_blank">JOBKOREA</a></strong> Corp. All Right Reserved.</p>
+</div>
 
     <script type="text/javascript" src="/scripts/OnPass_Quick.js?v201611011500"></script>
     <script type="text/javascript" src="/scripts/OnPass_Pool.js?201808301500"></script>
     <script type="text/javascript" src="/scripts/Opt_Trace.js?v20170921"></script>
     <script type="text/javascript" src="/scripts/JK_IP_Secure_Main.js?v20170915"></script>
-    <script type="text/javascript" src="/scripts/naverLogin_implicit-1.0.2.js" charset="utf-8"></script>
+    <script type="text/javascript" src="/scripts/Member/naverLogin_implicit-1.0.2.js" charset="utf-8"></script>
     <script src="https://apis.google.com/js/client:platform.js" gapi_processed="true"></script>
     <script type="text/javascript" src="/scripts/kakao.min.js"></script>
     <script type="text/javascript" src="/scripts/SNS.js?ver=1.4"></script>
@@ -921,7 +723,6 @@
     <!-- End Adobe Marketing Cloud Tag Management code -->
 </div>
 <div style="position:absolute; left:-5000px; overflow:hidden; display:none;">
-
             
                 <script type="text/javascript">
                     //-- NSM Conversion Check Start
@@ -937,9 +738,6 @@
                     }
                     //-- NSM Conversion Check End
                 </script>
-            
-
-
     <script>
         /* usage */
         (function ($) {
@@ -1026,11 +824,6 @@
 <!-- DO NOT MODIFY -->
 <!-- End Facebook Pixel Code -->
 
-    
-
-
-
-
     <script type="text/javascript">
         /* usage */
         (function ($) {
@@ -1049,11 +842,10 @@
         );
     </script>
 
-
-
-
-
-    <div id="wp_tg_cts" style="display:none;"><script id="wp_id_script_1545285292959" src="//altg.widerplanet.com/delivery/wp.js"></script><script id="wp_tag_script_1545285293090" src="//astg.widerplanet.com/delivery/wpc.php?v=1&amp;ver=4.0&amp;r=1&amp;md=bs&amp;ga=1dhq51g-1ldtunt-3-1&amp;eid=4-b88726a3b189f92844953717b25f4b317c480c1d9af30c7fa0dd5c9638f594adbe3cd507f4116619cebf1e97d24e9b2dab7fc76170dda909f9b452265d96d9f57fc92cc71dd9ca451d050d8581fb2884&amp;ty=Home&amp;ti=21649&amp;device=web&amp;charset=UTF-8&amp;tc=1545285293090&amp;loc=https%3A%2F%2Fwww.jobkorea.co.kr%2F"></script><script id="wp_tag_script_1545285293094" src="//astg.widerplanet.com/delivery/wpc.php?v=1&amp;ver=4.0&amp;r=1&amp;md=bs&amp;ga=1dhq51g-1ldtunt-3-1&amp;eid=4-b88726a3b189f92844953717b25f4b317c480c1d9af30c7fa0dd5c9638f594adbe3cd507f4116619cebf1e97d24e9b2dab7fc76170dda909f9b452265d96d9f57fc92cc71dd9ca451d050d8581fb2884&amp;ty=Home&amp;ti=26747&amp;device=web&amp;charset=UTF-8&amp;tc=1545285293094&amp;loc=https%3A%2F%2Fwww.jobkorea.co.kr%2F"></script><script id="wp_tag_script_1545285293097" src="//astg.widerplanet.com/delivery/wpc.php?v=1&amp;ver=4.0&amp;r=1&amp;md=bs&amp;ga=1dhq51g-1ldtunt-3-1&amp;eid=4-b88726a3b189f92844953717b25f4b317c480c1d9af30c7fa0dd5c9638f594adbe3cd507f4116619cebf1e97d24e9b2dab7fc76170dda909f9b452265d96d9f57fc92cc71dd9ca451d050d8581fb2884&amp;ty=Home&amp;ti=26741&amp;device=web&amp;charset=UTF-8&amp;tc=1545285293097&amp;loc=https%3A%2F%2Fwww.jobkorea.co.kr%2F"></script><script id="wp_tag_script_1545285293103" src="//astg.widerplanet.com/delivery/wpc.php?v=1&amp;ver=4.0&amp;r=1&amp;md=bs&amp;ga=1dhq51g-1ldtunt-3-1&amp;eid=4-b88726a3b189f92844953717b25f4b317c480c1d9af30c7fa0dd5c9638f594adbe3cd507f4116619cebf1e97d24e9b2dab7fc76170dda909f9b452265d96d9f57fc92cc71dd9ca451d050d8581fb2884&amp;ty=Home&amp;ti=26738&amp;device=web&amp;charset=UTF-8&amp;tc=1545285293103&amp;loc=https%3A%2F%2Fwww.jobkorea.co.kr%2F"></script></div>
+    <div id="wp_tg_cts" style="display:none;">
+    	<script id="wp_id_script_1545358029400" src="//altg.widerplanet.com/delivery/wp.js"></script>
+    	<script id="wp_tag_script_1545358029551" src="//astg.widerplanet.com/delivery/wpc.php?v=1&amp;ver=4.0&amp;r=1&amp;md=bs&amp;ga=1e1lojm-ghctma-3-1&amp;eid=4-62e8ed7218e53aa62e785d6d1cd108cc1155ad5e49a6f1d4a3c7a2c2d929856d35be436d9b39f77f7520ac8a64ad55c74aa0a7f936d72b27675eb42117b842e874522e5320c26bec317cc1e02a76fad2&amp;ty=Home&amp;ti=21649&amp;device=web&amp;charset=UTF-8&amp;tc=1545358029551&amp;ref=http%3A%2F%2Fwww.jobkorea.co.kr%2Frecruit%2Fjoblist%3Fmenucode%3Dlocal%26local%3DI000&amp;loc=https%3A%2F%2Fwww.jobkorea.co.kr%2F"></script><script id="wp_tag_script_1545358029555" src="//astg.widerplanet.com/delivery/wpc.php?v=1&amp;ver=4.0&amp;r=1&amp;md=bs&amp;ga=1e1lojm-ghctma-3-1&amp;eid=4-62e8ed7218e53aa62e785d6d1cd108cc1155ad5e49a6f1d4a3c7a2c2d929856d35be436d9b39f77f7520ac8a64ad55c74aa0a7f936d72b27675eb42117b842e874522e5320c26bec317cc1e02a76fad2&amp;ty=Home&amp;ti=26747&amp;device=web&amp;charset=UTF-8&amp;tc=1545358029555&amp;ref=http%3A%2F%2Fwww.jobkorea.co.kr%2Frecruit%2Fjoblist%3Fmenucode%3Dlocal%26local%3DI000&amp;loc=https%3A%2F%2Fwww.jobkorea.co.kr%2F"></script><script id="wp_tag_script_1545358029563" src="//astg.widerplanet.com/delivery/wpc.php?v=1&amp;ver=4.0&amp;r=1&amp;md=bs&amp;ga=1e1lojm-ghctma-3-1&amp;eid=4-62e8ed7218e53aa62e785d6d1cd108cc1155ad5e49a6f1d4a3c7a2c2d929856d35be436d9b39f77f7520ac8a64ad55c74aa0a7f936d72b27675eb42117b842e874522e5320c26bec317cc1e02a76fad2&amp;ty=Home&amp;ti=26741&amp;device=web&amp;charset=UTF-8&amp;tc=1545358029563&amp;ref=http%3A%2F%2Fwww.jobkorea.co.kr%2Frecruit%2Fjoblist%3Fmenucode%3Dlocal%26local%3DI000&amp;loc=https%3A%2F%2Fwww.jobkorea.co.kr%2F"></script><script id="wp_tag_script_1545358029566" src="//astg.widerplanet.com/delivery/wpc.php?v=1&amp;ver=4.0&amp;r=1&amp;md=bs&amp;ga=1e1lojm-ghctma-3-1&amp;eid=4-62e8ed7218e53aa62e785d6d1cd108cc1155ad5e49a6f1d4a3c7a2c2d929856d35be436d9b39f77f7520ac8a64ad55c74aa0a7f936d72b27675eb42117b842e874522e5320c26bec317cc1e02a76fad2&amp;ty=Home&amp;ti=26738&amp;device=web&amp;charset=UTF-8&amp;tc=1545358029566&amp;ref=http%3A%2F%2Fwww.jobkorea.co.kr%2Frecruit%2Fjoblist%3Fmenucode%3Dlocal%26local%3DI000&amp;loc=https%3A%2F%2Fwww.jobkorea.co.kr%2F"></script>
+    </div>
     <script type="text/javascript">
     var wptg_tagscript_vars = wptg_tagscript_vars || [];
     wptg_tagscript_vars.push(
@@ -1106,11 +898,6 @@
 
     </script>
 
-
-
-
-
-
     <script type="text/javascript">
         var parser = new UAParser(),
 	    result = parser.getResult(),
@@ -1141,10 +928,6 @@
             var mainView = new app.MainView(options);
         });
     </script>
-
-    <!-- carousel plugin -->
-    
-    
 
     <!-- sidebar scroll plugin -->
     <script type="text/javascript" src="/scripts/jquery.nanoscroller.js"></script>
@@ -1191,10 +974,7 @@
         });
     </script>
     <!-- 201709 개편 //-->
-    <script src="/scirpts/Main?v=tJwIr0oO2dafyepZA-1TBWdh6E1J-bf_GAqj2LPT_Wk1"></script>
-
-
-
+    <script src="/scripts/Main?v=tJwIr0oO2dafyepZA-1TBWdh6E1J-bf_GAqj2LPT_Wk1"></script>
 <div id="criteo-tags-div" style="display: none;">
 </div>
 </body>

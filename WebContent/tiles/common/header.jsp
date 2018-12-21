@@ -118,13 +118,7 @@
 <script type="text/javascript" src="//static.criteo.net/js/ld/ld.js"></script><script type="text/javascript" src="//cdn-aitg.widerplanet.com/js/wp_astg_4.0.js"></script></head>
 <body class="byWd byNm" style=""><a name="top"></a>
     <p id="accessibility"><a href="#point">메뉴 건너뛰기</a></p>
-
-    
-
-
 <script type="text/javascript" src="/scripts/Landing_Banner.js?ver=35"></script>
-
-
 <script type="text/javascript">
 
     (function ($) {
@@ -187,8 +181,6 @@
     }
 </script>
 
-
-
 <!--// GNB 개편 시작 -->
 <div id="headerWrap" class="gnbTheme1080 devGnbContainer">
     <div id="header" class="">
@@ -196,7 +188,6 @@
         <!-- // headInner -->
         <div class="headInner">
             <h1 class="jkLogo"><a href="https://www.jobkorea.co.kr">취업 준비의 시작! 잡코리아</a></h1>
-
 <!-- // search -->
 <div class="search">
     <h2 class="skip">검색</h2>
@@ -694,8 +685,6 @@
 
 <script src="/sciprts/Gnb?v=9AXDosY8_SXffdloJQYHn_nLhysMx83CJ0woeZJwBck1"></script>
 
-
-
 <script type="text/javascript" src="/sciprts/uit.carousel.js"></script>
 <script>
     $(document).ready(function () {
@@ -760,5 +749,4 @@
         $("div.header-sub.start-sub ul.submenu-starter li.active span.icnUpdate").remove();
     });
 </script>
-
 </body>
