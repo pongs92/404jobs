@@ -2,7 +2,6 @@
 	pageEncoding="UTF-8"%>
 <div id="footer">
     <h2 class="skip">잡코리아 기타 정보</h2>
-
     <div class="btmNtc">
             <h3 class="blind">공지사항</h3>
             <dl class="clear">
