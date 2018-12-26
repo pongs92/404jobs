@@ -1,8 +1,8 @@
 package VO;
 
 public class khAdminVO {
-	private String admin_id; 	// ê´€ë¦¬ì id
-	private String admin_pass; 	// ê´€ë¦¬ì ë¹„ë°€ë²ˆí˜¸
+	private String admin_id; // °ü¸®ÀÚ id
+	private String admin_pass; // °ü¸®ÀÚ ºñ¹Ğ¹øÈ£
 
 	public String getAdmin_id() {
 		return admin_id;
@@ -19,4 +19,5 @@ public class khAdminVO {
 	public void setAdmin_pass(String admin_pass) {
 		this.admin_pass = admin_pass;
 	}
+
 }
