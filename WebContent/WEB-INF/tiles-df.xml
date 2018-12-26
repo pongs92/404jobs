@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+<!--  -->
+	<definition name="simpleqna" template="/layout.jsp">
+		<put-attribute name="repo" value="/simpleqna/simpleqna_repo.jsp"/>
+		<put-attribute name="headerrepo" value="/common/header_repo.jsp"/>
+		<put-attribute name="header" value="/common/header.jsp"/>
+		<put-attribute name="footer" value="/common/footer.jsp"/>
+		<put-attribute name="body" value="/simpleqna/simpleqna.jsp"/>
+	</definition>
+	
+	<definition name="notice" template="/layout.jsp">
+		<put-attribute name="repo" value="/notice/notice_repo.jsp"/>
+		<put-attribute name="headerrepo" value="/common/header_repo.jsp"/>
+		<put-attribute name="header" value="/common/header.jsp"/>
+		<put-attribute name="footer" value="/common/footer.jsp"/>
+		<put-attribute name="body" value="/notice/notice.jsp"/>
+	</definition>
+	
+	<definition name="mypage" template="/layout.jsp">
+		<put-attribute name="repo" value="/mypage/mypage_repo.jsp"/>
+		<put-attribute name="headerrepo" value="/common/header_repo.jsp"/>
+		<put-attribute name="header" value="/common/header.jsp"/>
+		<put-attribute name="footer" value="/common/footer.jsp"/>
+		<put-attribute name="body" value="/mypage/mypage.jsp"/>
+	</definition>
+	
+	<definition name="rslist" template="/layout.jsp">
+		<put-attribute name="repo" value="/mypage/mypage_repo.jsp"/>
+		<put-attribute name="headerrepo" value="/common/header_repo.jsp"/>
+		<put-attribute name="header" value="/common/header.jsp"/>
+		<put-attribute name="footer" value="/common/footer.jsp"/>
+		<put-attribute name="body" value="/mypage/resumelist.jsp"/>
+	</definition>
+	
+	<definition name="pflist" template="/layout.jsp">
+		<put-attribute name="repo" value="/mypage/mypage_repo.jsp"/>
+		<put-attribute name="headerrepo" value="/common/header_repo.jsp"/>
+		<put-attribute name="header" value="/common/header.jsp"/>
+		<put-attribute name="footer" value="/common/footer.jsp"/>
+		<put-attribute name="body" value="/mypage/portfoliolist.jsp"/>
+	</definition>
+	
+	<definition name="qna" template="/layout.jsp">
+		<put-attribute name="repo" value="/qna/qna_repo.jsp"/>
+		<put-attribute name="headerrepo" value="/common/header_repo.jsp"/>
+		<put-attribute name="header" value="/common/header.jsp"/>
+		<put-attribute name="footer" value="/common/footer.jsp"/>
+		<put-attribute name="body" value="/qna/qna.jsp"/>
+	</definition>
+	
+	<definition name="hireinfo" template="/layout.jsp"> 
+		<put-attribute name="repo" value="/postinfo/hireinfo_repo.jsp"/>
+		<put-attribute name="headerrepo" value="/common/header_repo.jsp"/>
+		<put-attribute name="header" value="/common/header.jsp"/>
+		<put-attribute name="footer" value="/common/footer.jsp"/> 
+ 		<put-attribute name="body" value="/postinfo/hireinfo.jsp"/> 
+ 	</definition> 
+ 	
+ 	<definition name="rswrite" template="/layout.jsp"> 
+		<put-attribute name="repo" value="/resumewrite/resumewrite_repo.jsp"/>
+		<put-attribute name="headerrepo" value="/common/header_repo.jsp"/>
+		<put-attribute name="header" value="/common/header.jsp"/>
+		<put-attribute name="footer" value="/common/footer.jsp"/> 
+ 		<put-attribute name="body" value="/resumewrite/resumewrite.jsp"/> 
+ 	</definition>
+ 	
+ 	<definition name="main" template="/layout.jsp"> 
+		<put-attribute name="repo" value="/main/main_repo.jsp"/>
+		<put-attribute name="headerrepo" value="/common/header_repo.jsp"/>
+		<put-attribute name="header" value="/common/header.jsp"/>
+		<put-attribute name="footer" value="/common/footer.jsp"/> 
+ 		<put-attribute name="body" value="/main/main.jsp"/> 
+ 	</definition>
+ 	
+ 	<definition name="post" template="/layout.jsp"> 
+		<put-attribute name="repo" value="/main/main_repo.jsp"/>
+		<put-attribute name="headerrepo" value="/common/header_repo.jsp"/>
+		<put-attribute name="header" value="/common/header.jsp"/>
+		<put-attribute name="footer" value="/common/footer.jsp"/> 
+ 		<put-attribute name="body" value="/main/post.jsp"/> 
+ 	</definition>
+ 	
+ 	<definition name="joingen" template="/join_layout.jsp"> 
+		<put-attribute name="repo" value="/join/gen/join_gen_repo.jsp"/>
+ 		<put-attribute name="body" value="/join/gen/join_gen.jsp"/> 
+ 	</definition>
+ 	
+ 	<definition name="joincorp" template="/join_layout.jsp"> 
+		<put-attribute name="repo" value="/join/corp/join_corp_repo.jsp"/>
+ 		<put-attribute name="body" value="/join/corp/join_corp.jsp"/> 
+ 	</definition>
+</tiles-definitions>
