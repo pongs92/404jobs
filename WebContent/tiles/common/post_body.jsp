@@ -383,10 +383,12 @@
                     <article class="artReadDetail">
                 <h3 class="hd_3 blind">상세요강 정보</h3>
                 <!-- *******************************************채용공고 상세요강 ************************************************ -->
+               <!-- 
                 <iframe name="gib_frame" id="gib_frame" width="960" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" src="/Recruit/GI_Read_Comt_Ifrm?Gno=27146175&amp;blnKeepInLink=0&amp;rPageCode=" onload="ifrmNavi(this)" title="상세요강" height="2262px"></iframe>
+                 -->
+                 <textarea cols="50" rows="20" ></textarea>
             </article>
     </section>
-    <!-- 통계 -->
 
 <script>
     $(document).ready(function () {
