@@ -3,11 +3,11 @@ package VO;
 import java.util.Date;
 
 public class khAwardVO {
-	private int award_no; // ½Äº°ÀÚ
-	private int award_apply_no; // ¼ö»ó³»¿ª/ÀÚ°İÁõÀÌ Ãß°¡ µÉ ÀÌ·Â¼­No
-	private String award_name; // ¼ö»ó³»¿ª/ÀÚ°İÁõ ÀÌ¸§
-	private String award_publisher; // ¹ßÇà±â°ü
-	private Date award_date; // ÃëµæÀÏ
+	private int award_no; 			// ì‹ë³„ì
+	private int award_re_no;			// ì´ë ¥ì„œë²ˆí˜¸(ì°¸ì¡°ìš©)
+	private String award_name; 		// ìˆ˜ìƒ/ìê²©ì¦ ì´ë¦„
+	private String award_publisher;	// ìˆ˜ìƒ/ë°œí–‰ ê¸°ê´€
+	private Date award_date; 		// ìˆ˜ìƒ/ì·¨ë“ ì¼
 
 	public int getAward_no() {
 		return award_no;
@@ -17,12 +17,12 @@ public class khAwardVO {
 		this.award_no = award_no;
 	}
 
-	public int getAward_apply_no() {
-		return award_apply_no;
+	public int getAward_re_no() {
+		return award_re_no;
 	}
 
-	public void setAward_apply_no(int award_apply_no) {
-		this.award_apply_no = award_apply_no;
+	public void setAward_re_no(int award_re_no) {
+		this.award_re_no = award_re_no;
 	}
 
 	public String getAward_name() {

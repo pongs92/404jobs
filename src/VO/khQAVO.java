@@ -1,9 +1,9 @@
 package VO;
 
 public class khQAVO {
-	private int qa_no; 		// QA ¹øÈ£
-	private String qa_subject; // QA Á¦¸ñ
-	private String qa_content; // QA ³»¿ë
+	private int qa_no;			// ì‹ë³„ì
+	private String qa_subject;	// QAì œëª©
+	private String qa_content;	// QAë‚´ìš©
 	
 	public int getQa_no() {
 		return qa_no;
@@ -23,6 +23,4 @@ public class khQAVO {
 	public void setQa_content(String qa_content) {
 		this.qa_content = qa_content;
 	}
-
-
 }

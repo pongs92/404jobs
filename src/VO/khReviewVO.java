@@ -1,10 +1,13 @@
 package VO;
 
+import java.util.Date;
+
 public class khReviewVO {
-	private int review_no; // ¸®ºä ¹øÈ£
-	private int review_post_no; // ´ñ±ÛÀÌ ´Ş¸± °ø°íÀÇ ±Û¹øÈ£
-	private String review_writer; // ÀÛ¼ºÀÚ
-	private String review_content; // ³»¿ë
+	private int review_no;			// ì‹ë³„ì
+	private String review_writer;	// ë¦¬ë·°ì‘ì„±ì
+	private String review_content;	// ë¦¬ë·° ë‚´ìš©
+	private Date review_date;		// ì‘ì„± ì¼ì
+	private int review_post_no;		// ì±„ìš©ê³µê³  ë²ˆí˜¸(ì°¸ì¡°)
 
 	public int getReview_no() {
 		return review_no;
@@ -12,14 +15,6 @@ public class khReviewVO {
 
 	public void setReview_no(int review_no) {
 		this.review_no = review_no;
-	}
-
-	public int getReview_post_no() {
-		return review_post_no;
-	}
-
-	public void setReview_post_no(int review_post_no) {
-		this.review_post_no = review_post_no;
 	}
 
 	public String getReview_writer() {
@@ -36,6 +31,22 @@ public class khReviewVO {
 
 	public void setReview_content(String review_content) {
 		this.review_content = review_content;
+	}
+
+	public Date getReview_date() {
+		return review_date;
+	}
+
+	public void setReview_date(Date review_date) {
+		this.review_date = review_date;
+	}
+
+	public int getReview_post_no() {
+		return review_post_no;
+	}
+
+	public void setReview_post_no(int review_post_no) {
+		this.review_post_no = review_post_no;
 	}
 
 }

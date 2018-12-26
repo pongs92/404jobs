@@ -1,18 +1,13 @@
 package VO;
 
+import java.util.Date;
+
 public class khPostVO {
-	private int post_no; // °Ô½Ã±Û ¹øÈ£
-	private String post_subject; // °Ô½Ã±Û Á¦¸ñ
-	private String post_career; // Áö¿øÀÚ°İ(°æ·Â)
-	private String post_education; // Áö¿øÀÚ°İ(ÇĞ·Â)
-	private String post_preference; // Áö¿øÀÚ°İ(¿ì´ë»çÇ×)
-	private String post_employee_type; // ±Ù¹«Á¶°Ç(°í¿ëÇüÅÂ)
-	private int post_pay; // ±Ù¹«Á¶°Ç(±Ş¿©/¿¬ºÀ)
-	private String post_location_sido; // ±Ù¹«Á¶°Ç(½Ã,µµ)
-	private String post_location_gugun; // ±Ù¹«Á¶°Ç(±¸,±º)
-	private String post_time; // ±Ù¹«Á¶°Ç(±Ù¹«½Ã°£)
-	private String post_content; // Ã¤¿ë°ø°í ³»¿ë
-	private int post_c_no; // »ç¾÷ÀÚµî·Ï¹øÈ£
+	private int post_no;				// ì‹ë³„ì
+	private String post_subject;	// ê³µê³  ì œëª©
+	private String post_writer;		// ê³µê³  ì‘ì„±ì
+	private String post_content;	// ê³µê³  ë‚´ìš©
+	private Date post_date;			// ë“±ë¡ ì¼ì
 
 	public int getPost_no() {
 		return post_no;
@@ -30,68 +25,12 @@ public class khPostVO {
 		this.post_subject = post_subject;
 	}
 
-	public String getPost_career() {
-		return post_career;
+	public String getPost_writer() {
+		return post_writer;
 	}
 
-	public void setPost_career(String post_career) {
-		this.post_career = post_career;
-	}
-
-	public String getPost_education() {
-		return post_education;
-	}
-
-	public void setPost_education(String post_education) {
-		this.post_education = post_education;
-	}
-
-	public String getPost_preference() {
-		return post_preference;
-	}
-
-	public void setPost_preference(String post_preference) {
-		this.post_preference = post_preference;
-	}
-
-	public String getPost_employee_type() {
-		return post_employee_type;
-	}
-
-	public void setPost_employee_type(String post_employee_type) {
-		this.post_employee_type = post_employee_type;
-	}
-
-	public int getPost_pay() {
-		return post_pay;
-	}
-
-	public void setPost_pay(int post_pay) {
-		this.post_pay = post_pay;
-	}
-
-	public String getPost_location_sido() {
-		return post_location_sido;
-	}
-
-	public void setPost_location_sido(String post_location_sido) {
-		this.post_location_sido = post_location_sido;
-	}
-
-	public String getPost_location_gugun() {
-		return post_location_gugun;
-	}
-
-	public void setPost_location_gugun(String post_location_gugun) {
-		this.post_location_gugun = post_location_gugun;
-	}
-
-	public String getPost_time() {
-		return post_time;
-	}
-
-	public void setPost_time(String post_time) {
-		this.post_time = post_time;
+	public void setPost_writer(String post_writer) {
+		this.post_writer = post_writer;
 	}
 
 	public String getPost_content() {
@@ -102,12 +41,12 @@ public class khPostVO {
 		this.post_content = post_content;
 	}
 
-	public int getPost_c_no() {
-		return post_c_no;
+	public Date getPost_date() {
+		return post_date;
 	}
 
-	public void setPost_c_no(int post_c_no) {
-		this.post_c_no = post_c_no;
+	public void setPost_date(Date post_date) {
+		this.post_date = post_date;
 	}
 
 }

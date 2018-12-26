@@ -3,18 +3,16 @@ package VO;
 import java.util.Date;
 
 public class khCareerVO {
-	private int career_no; // ½Äº°ÀÚ
-	private int career_apply_no; // °æ·Â³»¿ªÀÌ Ãß°¡ µÉ ÀÌ·Â¼­No
-	private String career_company_name; // È¸»ç¸í
-	private String career_department; // ºÎ¼­¸í
-	private Date career_enter_date; // ÀÔ»çÀÏ
-	private Date career_leave_date; // Åğ»çÀÏ
-	private String career_position; // Á÷Ã¥
-	private String career_job; // Á÷¹«
-	private int career_pay; // ¿¬ºÀ
-	private String career_job_explan; // ´ã´ç¾÷¹«
-	private int career_duration; // °æ·Â
-	private String career_description; // °æ·Â±â¼ú¼­(ÀÌÀüÁ÷Àå¿¡¼­ ¾÷¹« ¼³¸í textarea)
+	private int career_no;			//ì‹ë³„ì
+	private int career_re_no;		//ì´ë ¥ì„œë²ˆí˜¸(ì°¸ì¡°ìš©)
+	private String career_cname;	//ê¸°ì—…ëª…
+	private String career_dept;		//ë¶€ì„œ
+	private Date career_enter_date;	//ì…ì‚¬ì¼
+	private Date career_leave_date;	//í‡´ì‚¬ì¼
+	private String career_position;	//ì§ì±…/ì§ê¸‰
+	private String career_job;		//ì§ë¬´
+	private String career_pay;		//ì—°ë´‰
+	private String career_content;	//ê²½ë ¥ê¸°ìˆ ì„œ
 
 	public int getCareer_no() {
 		return career_no;
@@ -24,28 +22,28 @@ public class khCareerVO {
 		this.career_no = career_no;
 	}
 
-	public int getCareer_apply_no() {
-		return career_apply_no;
+	public int getCareer_re_no() {
+		return career_re_no;
 	}
 
-	public void setCareer_apply_no(int career_apply_no) {
-		this.career_apply_no = career_apply_no;
+	public void setCareer_re_no(int career_re_no) {
+		this.career_re_no = career_re_no;
 	}
 
-	public String getCareer_company_name() {
-		return career_company_name;
+	public String getCareer_cname() {
+		return career_cname;
 	}
 
-	public void setCareer_company_name(String career_company_name) {
-		this.career_company_name = career_company_name;
+	public void setCareer_cname(String career_cname) {
+		this.career_cname = career_cname;
 	}
 
-	public String getCareer_department() {
-		return career_department;
+	public String getCareer_dept() {
+		return career_dept;
 	}
 
-	public void setCareer_department(String career_department) {
-		this.career_department = career_department;
+	public void setCareer_dept(String career_dept) {
+		this.career_dept = career_dept;
 	}
 
 	public Date getCareer_enter_date() {
@@ -80,36 +78,20 @@ public class khCareerVO {
 		this.career_job = career_job;
 	}
 
-	public int getCareer_pay() {
+	public String getCareer_pay() {
 		return career_pay;
 	}
 
-	public void setCareer_pay(int career_pay) {
+	public void setCareer_pay(String career_pay) {
 		this.career_pay = career_pay;
 	}
 
-	public String getCareer_job_explan() {
-		return career_job_explan;
+	public String getCareer_content() {
+		return career_content;
 	}
 
-	public void setCareer_job_explan(String career_job_explan) {
-		this.career_job_explan = career_job_explan;
-	}
-
-	public int getCareer_duration() {
-		return career_duration;
-	}
-
-	public void setCareer_duration(int career_duration) {
-		this.career_duration = career_duration;
-	}
-
-	public String getCareer_description() {
-		return career_description;
-	}
-
-	public void setCareer_description(String career_description) {
-		this.career_description = career_description;
+	public void setCareer_content(String career_content) {
+		this.career_content = career_content;
 	}
 
 }

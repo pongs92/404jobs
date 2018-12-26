@@ -1,9 +1,9 @@
 package VO;
 
 public class khApplyHrVO {
-	private int apply_no; // Áö¿ø ¸ñ·Ï ¹øÈ£
-	private int apply_company_no; // Áö¿ø¹ŞÀº ±â¾÷ÀÇ »ç¾÷ÀÚ µî·Ï¹øÈ£
-	private String apply_mem_id; // Áö¿øÇÑ ÀÎÀç Id
+	private int apply_no; 				// ì‹ë³„ì
+	private String apply_company_id; 	// ì§€ì›ë°›ì€ íšŒì‚¬
+	private String apply_mem_id; 		// ì§€ì›í•œ íšŒì› id
 
 	public int getApply_no() {
 		return apply_no;
@@ -13,12 +13,12 @@ public class khApplyHrVO {
 		this.apply_no = apply_no;
 	}
 
-	public int getApply_company_no() {
-		return apply_company_no;
+	public String getApply_company_id() {
+		return apply_company_id;
 	}
 
-	public void setApply_company_no(int apply_company_no) {
-		this.apply_company_no = apply_company_no;
+	public void setApply_company_id(String apply_company_id) {
+		this.apply_company_id = apply_company_id;
 	}
 
 	public String getApply_mem_id() {

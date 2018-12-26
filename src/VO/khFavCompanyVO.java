@@ -1,32 +1,32 @@
 package VO;
 
 public class khFavCompanyVO {
-	private int fav_no; // ±¸ºĞÀÚ
-	private int fav_company_no; // °ü½É±â¾÷ »ç¾÷ÀÚ µî·Ï¹øÈ£
-	private String fav_mem_id; // °ü½ÉÀÖ¾îÇÏ´Â È¸¿ø id
+	private int fav_c_no;		//ì‹ë³„ì
+	private String fav_c_m_id;	//ê¸°ì—…ì„ ê´€ì‹¬ìˆì–´í•˜ëŠ” ì¼ë°˜íšŒì›ì˜ id
+	private String fav_c_c_id;	//ê´€ì‹¬ë°›ëŠ” ê¸°ì—… id
 
-	public int getFav_no() {
-		return fav_no;
+	public int getFav_c_no() {
+		return fav_c_no;
 	}
 
-	public void setFav_no(int fav_no) {
-		this.fav_no = fav_no;
+	public void setFav_c_no(int fav_c_no) {
+		this.fav_c_no = fav_c_no;
 	}
 
-	public int getFav_company_no() {
-		return fav_company_no;
+	public String getFav_c_m_id() {
+		return fav_c_m_id;
 	}
 
-	public void setFav_company_no(int fav_company_no) {
-		this.fav_company_no = fav_company_no;
+	public void setFav_c_m_id(String fav_c_m_id) {
+		this.fav_c_m_id = fav_c_m_id;
 	}
 
-	public String getFav_mem_id() {
-		return fav_mem_id;
+	public String getFav_c_c_id() {
+		return fav_c_c_id;
 	}
 
-	public void setFav_mem_id(String fav_mem_id) {
-		this.fav_mem_id = fav_mem_id;
+	public void setFav_c_c_id(String fav_c_c_id) {
+		this.fav_c_c_id = fav_c_c_id;
 	}
 
 }

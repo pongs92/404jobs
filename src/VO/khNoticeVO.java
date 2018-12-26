@@ -3,10 +3,10 @@ package VO;
 import java.util.Date;
 
 public class khNoticeVO {
-	private int notice_no;			// °øÁö ¹øÈ£
-	private String notice_subject; // °øÁö Á¦¸ñ
-	private String notice_content; // °øÁö ³»¿ë
-	private Date notice_regdate; 	// °øÁö ³¯Â¥
+	private int notice_no;			// ê³µì§€ ë²ˆí˜¸
+	private String notice_subject; 	// ê³µì§€ ì œëª©
+	private String notice_content;	// ê³µì§€ ë‚´ìš©
+	private Date notice_regdate; 	// ê³µì§€ ë‚ ì§œ
 	public int getNotice_no() {
 		return notice_no;
 	}
