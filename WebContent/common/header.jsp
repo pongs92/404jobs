@@ -11,8 +11,9 @@
 			<!-- // headInner -->
 			<div class="headInner">
 				<h1 class="404Logo">
-					<a href="http://127.0.0.1:8080/testwebb/main.tiles"><img src="./image/404JOB.png" height="39" width="160" style="float: left;">
-					</a>
+					<a href="http://127.0.0.1:8080/testwebb/main.tiles"><img
+						src="./image/404JOB.png" height="39" width="160"
+						style="float: left;"> </a>
 				</h1>
 				<!-- // search -->
 				<div class="search">
@@ -36,19 +37,19 @@
 
 			<div id="headNavBar" class="headNavBar">
 				<div class="navInner">
-
 					<!-- 전체보기 버튼 클릭시 active 클래스 추가 -->
 					<div class="jkNavArea">
 						<h2 class="skip">주요서비스</h2>
 						<nav>
-						<ul>
-							<!-- 채용정보 -->
-							<li><a href="http://127.0.0.1:8080/testwebb/hireinfo.tiles">채용정보</a></li>
-							<li><a href="">TOP100</a></li>
-							<li><a href="http://127.0.0.1:8080/testwebb/simpleqna.tiles">고객센터</a></li>
-							<li><a href="http://127.0.0.1:8080/testwebb/mypage.tiles">마이페이지</a></li>
-						</ul>
-						<!-- my 홈일경우 클래스 myPage -->
+							<ul>
+								<!-- 채용정보 -->
+								<li><a href="http://127.0.0.1:8080/testwebb/hireinfo.tiles">채용정보</a></li>
+								<li><a href="">TOP100</a></li>
+								<li><a
+									href="http://127.0.0.1:8080/testwebb/simpleqna.tiles">고객센터</a></li>
+								<li><a href="http://127.0.0.1:8080/testwebb/mypage.tiles">마이페이지</a></li>
+							</ul>
+							<!-- my 홈일경우 클래스 myPage -->
 						</nav>
 					</div>
 
@@ -56,10 +57,7 @@
 			</div>
 		</div>
 	</div>
-
 	<div class="jkNavDimm"></div>
-	<!-- GNB 개편 끝 //-->
-
 	<script
 		src="/sciprts/jquery?v=FVs3ACwOLIVInrAl5sdzR2jrCDmVOWFbZMY6g6Q0ulE1"></script>
 </body>
